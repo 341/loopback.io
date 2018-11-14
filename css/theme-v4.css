@@ -1,0 +1,105 @@
+body {
+    --color-blue: #009cff;
+    --color-blue-d: #3f5dff;
+    --color-blue-xd: #001956;
+    --color-gray: #a3a4a3;
+    --color-gray-d: #626262;
+    --color-gray-xd: #393939;
+    --color-white: #ffffff;
+    --color-white-d: #fbfcfc;
+    --color-white-xd: #f8fafa;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: var(--color-gray);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: var(--color-gray-d);
+}
+
+.nav > li.active > a {
+    background-color: var(--color-blue-d);
+}
+
+.nav > li > a:hover {
+    background-color: var(--color-blue-d);
+}
+
+div.navbar-collapse .dropdown-menu > li > a:hover {
+    background-color: var(--color-blue-d);
+}
+
+.nav li.thirdlevel > a {
+    color: var(--color-blue-d);
+}
+
+.navbar-inverse {
+    background-color: var(--color-white); 
+    border-color: var(--color-gray);
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: var(--color-gray);
+    color: var(--color-gray-xd);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: var(--color-gray);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: var(--color-gray-xd);
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: var(--color-gray);
+    border-bottom-color: var(--color-gray-d);
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret,
+.navbar-inverse .navbar-nav > .open > a .caret, 
+.navbar-inverse .navbar-nav > .open > a:hover .caret, 
+.navbar-inverse .navbar-nav > .open > a:focus .caret {
+    border-top-color: var(--color-gray-d);
+    border-bottom-color: var(--color-gray-d);
+}
+
+.dropdown-menu > li > a {
+    color: var(--color-gray);
+}
+
+.lb-search input {
+    color: var(--color-gray-xd);
+}
+
+.search-bar::placeholder {
+    color: var(--color-gray);
+}
+
+.highlight-box {
+    border: 1px solid var(--color-gray-d);
+    background-color: var(--color-gray);
+}
+
+a {
+    color: var(--color-blue-d);
+}
+
+#seealso {
+    border: 1px solid var(--color-blue-xd) !important;
+}
+
+#mysidebar li > a:hover {
+   background-color: var(--color-blue);
+}
+
+.btn-link, .btn-link:hover, .btn-link:focus {
+    color: var(--color-blue-d);
+}
+
+.v3notice {
+    border: 1px solid var(--color-blue-xd);
+}
